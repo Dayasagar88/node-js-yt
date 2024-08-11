@@ -20,15 +20,6 @@ app.use("/person", PersonRouter);
 app.use("/menu-item", MenuItemRouter);
 
 
-
-
-
-
-
-
-
-
-
 app.listen(PORT, () => {
   console.log(`server is running  on port ${PORT}`);
 });

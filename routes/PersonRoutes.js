@@ -45,7 +45,7 @@ router.get("/:workType", async (req, res) => {
     res.status(500).json({ error: "Internal server error" });
   }
 });
-
+ 
 router.put("/:id", async (req, res) => {
   try {
     const personId = req.params.id;
