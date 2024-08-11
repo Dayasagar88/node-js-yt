@@ -1,0 +1,19 @@
+npm init
+npm express
+npm install nodemon
+npm i lodash
+
+install mongoDB in pc
+setup mongoDB
+
+npm install mongoose
+create db.js file in project for database connection between nodejs and mongodb(via using mongoose library)
+In db.js make a connection, add event listeners , export the db module 
+
+
+Create the person.js file  // can use different name of file according to database
+Define the person Schema in person.js file and export it
+
+ POST route to add person in server.js file
+
+
